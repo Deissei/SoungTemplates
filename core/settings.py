@@ -41,7 +41,11 @@ DJANGO_APPS = [
 
 CONFIG_APPS = []
 
-MY_APPS = []
+MY_APPS = [
+    'apps.artist',
+    'apps.genre',
+    'apps.soung',
+]
 
 
 INSTALLED_APPS = DJANGO_APPS + CONFIG_APPS + MY_APPS
